@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         itemDiv.addEventListener('click', () => {
             // In a real application, you would play a sound or show an animation here
             console.log(`Clicked: ${value}`);
-            alert(`You clicked ${value}!`); // For demonstration, show an alert
+            //alert(`You clicked ${value}!`); // For demonstration, show an alert
             // Example of how to integrate a simple text-to-speech (browser dependent)
             if ('speechSynthesis' in window) {
                 const utterance = new SpeechSynthesisUtterance(value);
