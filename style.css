@@ -1,0 +1,80 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* A fun, kid-friendly font */
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #ff80ab; /* Brighter pink for header */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+    color: #d81b60; /* Darker pink for headings */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.learning-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    background-color: #ffebee;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); /* Responsive grid */
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item {
+    background-color: #e0f2f7; /* Light blue for items */
+    border: 2px solid #90caf9;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    user-select: none; /* Prevent text selection */
+}
+
+.item:hover {
+    background-color: #bbdefb; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+.item:active {
+    background-color: #64b5f6; /* Even darker blue when active */
+    transform: scale(0.95); /* Shrink slightly on click */
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ff80ab;
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
