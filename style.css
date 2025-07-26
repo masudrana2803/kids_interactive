@@ -62,13 +62,13 @@ main {
 
 .item:hover {
     background-color: #bbdefb; /* Darker blue on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.15); /* Slightly enlarge on hover */
     box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
 }
 
 .item:active {
     background-color: #64b5f6; /* Even darker blue when active */
-    transform: scale(0.95); /* Shrink slightly on click */
+    transform: scale(1.10); /* Shrink slightly on click */
 }
 
 footer {
